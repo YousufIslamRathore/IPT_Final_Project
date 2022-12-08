@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  background: #f7f7f7 !important;
+}
+
+/* ***** Sign In Page ***** */
+
+.signInWholePageSection {
+  background: #000 !important;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.signInWholePageSection:before {
+  content: "";
+  background: url(../../images/backgrounds/bg-1.png) no-repeat center;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  pointer-events: none;
+  background-size: cover;
+  opacity: 0.2;
+}
+
+.signInFormContainer {
+  background-color: #242424;
+  width: 35%;
+  min-height: 80vh;
+  border-radius: 10px;
+  box-shadow: -0.083333333in 0.5pc 1.125pc -7px rgba(25, 42, 70, 0.13);
+  text-align: center;
+  padding: 50px 50px 30px;
+  z-index: 5;
+}
+
+.signInFormContainer > h2 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 17px;
+}
+
+.signInFormContainer > p {
+  color: #c7c7c7;
+  margin-bottom: 40px;
+}
+
+.signInFormContainer > .socialLinkBtn {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  background: #efefef;
+  border-radius: 20px;
+  text-align: center;
+  border: 0;
+  width: 100%;
+  height: 40px;
+}
+
+.mainInputDiv {
+  margin-top: 15px;
+  width: 100%;
+  border-radius: 10px;
+  position: relative;
+}
+
+.mainInputDiv > div > input {
+  width: 100%;
+  background-color: #333333;
+  border-radius: 20px;
+  height: 40px;
+  font-size: 14px;
+  color: #787878 !important;
+  border: 1px solid #242424;
+  outline: none;
+  box-shadow: inset 0px 1px 4px rgb(0 0 0 / 30%);
+  padding-left: 4.2em;
+  padding-right: 1em;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+.mainInputDiv > div > input::placeholder {
+  color: #787878;
+}
+
+.mainInputDiv > div > i {
+  color: #787878;
+  position: absolute;
+  left: 1.5rem;
+  top: 0.78rem;
+}
+
+.mainInputDiv > div > input:focus {
+  background-color: white;
+  color: #333 !important;
+}
