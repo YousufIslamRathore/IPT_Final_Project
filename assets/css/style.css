@@ -56,7 +56,7 @@ body {
   margin-bottom: 40px;
 }
 
-.signInFormContainer > .socialLinkBtn {
+.signInFormContainer .socialLinkBtn {
   font-size: 14px;
   font-weight: 400;
   color: #fff;
@@ -66,6 +66,7 @@ body {
   border: 0;
   width: 100%;
   height: 40px;
+  cursor: pointer;
 }
 
 .mainInputDiv {
@@ -104,4 +105,42 @@ body {
 .mainInputDiv > div > input:focus {
   background-color: white;
   color: #333 !important;
+}
+
+.mainInputDiv > div > div {
+  color: white;
+  text-align: right;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.mainInputDiv a {
+  color: #c7c7c7;
+  transition-duration: 200ms;
+  text-decoration: none;
+}
+.mainInputDiv a:hover {
+  color: white !important;
+  text-decoration: underline;
+}
+
+.divider {
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 30px 0;
+}
+
+.signUpRedirectorContainer {
+    color: #c7c7c7;
+    margin-bottom: 0 !important;
+    font-size: 13px;
+}
+.signUpRedirectorContainer > span {
+    cursor: pointer;
+    transition-duration: 200ms;
+}
+.signUpRedirectorContainer > span:hover {
+    color: white !important;
 }
