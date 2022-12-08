@@ -127,9 +127,11 @@ body {
 
 .divider {
   width: 100%;
-  border: 1px solid white;
+  border: 1px solid #ddd;
   border-radius: 10px;
   margin: 30px 0;
+  margin-top: 40px;
+  background: #ddd;
 }
 
 .signUpRedirectorContainer {
@@ -143,4 +145,5 @@ body {
 }
 .signUpRedirectorContainer > span:hover {
     color: white !important;
+    text-decoration: underline;
 }
