@@ -19,15 +19,17 @@
 <body>
     <section class="signInWholePageSection">
         <div style="width: 100%; min-height: 100vh; display: flex; justify-content: center; align-items: center;">
-            <section class="signInFormContainer">
-                <h2>Welcome Back</h2>
-                <p>Log In to Your Account</p>
-                <button class="socialLinkBtn" style="background: #3b5998;"><i class="fa-brands fa-facebook-f"  style="margin-right: 10px;"></i>Continue with Facebook</button>
-                <button class="socialLinkBtn" style="background: #1da1f2; margin-top: 15px;"><i class="fa-brands fa-twitter" style="margin-right: 10px;"></i>Continue with
-                    Twitter</button>
-                <button class="socialLinkBtn" style="background: #34a853; margin-top: 15px;"><i class="fa-brands fa-google" style="margin-right: 10px;"></i>Continue with
-                    Google</button>
+            <section class="signInFormContainer signUpFormContainer">
+                <h2>Welcome To Our Learning Portal</h2>
+                <p>Sign Up and Start Learning!</p>
                 <form>
+                    <div class="mainInputDiv">
+                        <div>
+                            <input type="text" name="fullName" value="" id="id_fullname" required="" maxlength="64"
+                                placeholder="Full Name">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                    </div>
                     <div class="mainInputDiv">
                         <div>
                             <input type="email" name="emailaddress" value="" id="id_email" required="" maxlength="64"
@@ -40,16 +42,15 @@
                             <input type="password" name="password" value="" id="id_password" required="" maxlength="64"
                                 placeholder="Password">
                             <i class="fa-solid fa-key"></i>
-                            <div><a href="javascript:void(0)">Forgot Password</a></div>
                         </div>
                     </div>
-                    <button class="socialLinkBtn" style="background: #ED2A26; margin-top: 30px;">
-                        Sign In
+                    <button class="socialLinkBtn" style="background: #ED2A26; margin-top: 60px;">
+                        Next
                     </button>
-
+                    <p class="signUpRedirectorContainer privacyPolicyTerms" style="margin-top: 30px;">By signing up, you agree to our <span>Terms of Use</span> and <span>Privacy Policy</span></p>
                     <section class="divider"></section>
                 </form>
-                <p class="signUpRedirectorContainer">Don't have an account? <span onclick="window.location.assign('./signUp.html')">Sign Up</span></p>
+                <p class="signUpRedirectorContainer">Don't have an account? <span onclick="window.location.assign('./login.html')">Sign Up</span></p>
             </section>
         </div>
     </section>

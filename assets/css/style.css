@@ -54,6 +54,7 @@ body {
 .signInFormContainer > p {
   color: #c7c7c7;
   margin-bottom: 40px;
+  font-size: 14px;
 }
 
 .signInFormContainer .socialLinkBtn {
@@ -91,6 +92,7 @@ body {
   font-weight: 400;
   font-family: "Roboto", sans-serif;
 }
+
 .mainInputDiv > div > input::placeholder {
   color: #787878;
 }
@@ -120,6 +122,7 @@ body {
   transition-duration: 200ms;
   text-decoration: none;
 }
+
 .mainInputDiv a:hover {
   color: white !important;
   text-decoration: underline;
@@ -135,15 +138,42 @@ body {
 }
 
 .signUpRedirectorContainer {
-    color: #c7c7c7;
-    margin-bottom: 0 !important;
-    font-size: 13px;
+  color: #c7c7c7;
+  margin-bottom: 0 !important;
+  font-size: 13px;
 }
+
 .signUpRedirectorContainer > span {
-    cursor: pointer;
-    transition-duration: 200ms;
+  cursor: pointer;
+  transition-duration: 200ms;
 }
+
 .signUpRedirectorContainer > span:hover {
-    color: white !important;
-    text-decoration: underline;
+  color: white !important;
+  text-decoration: underline;
+}
+
+/* **** Sign Up Page **** */
+
+
+/* Changing Input Background-Color & Text-Color for Chrome Background */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #333333 inset !important;
+}
+input:-webkit-autofill{
+  -webkit-text-fill-color: #787878 !important;
+}
+/* //// */
+
+.signUpFormContainer > h2 {
+  margin-bottom: 17px;
+}
+.signUpFormContainer > p {
+  margin-bottom: 47px;
+} 
+.privacyPolicyTerms > span {
+  color: white !important;
 }
