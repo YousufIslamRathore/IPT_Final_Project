@@ -177,3 +177,73 @@ input:-webkit-autofill{
 .privacyPolicyTerms > span {
   color: white !important;
 }
+
+
+/* **** Sign Up page 2 **** */
+
+.signUp2FormContainer {
+  min-height: auto !important;
+}
+.choosingRedirectorContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px 10px 0 0;
+}
+.choosingRedirectorContainer > section {
+  width: 49.9%;
+  padding: 20px 10px;
+  background-color: #333333;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+#instructor-sign-up {
+  border-radius: 10px 0 0 0;
+}
+#student-sign-up {
+  border-radius: 0 10px 0 0;
+}
+.choosingRedirectorContainer p {
+  color: #c7c7c7 !important;
+}
+.active-redirector {
+  border-bottom: 2px solid #ED2A26;
+}
+.active-redirector > p {
+  color: #ffffff !important;
+}
+#signerMessage {
+  margin: 45px 0; 
+}
+#signerMessage > p {
+  color: #c7c7c7;
+  font-size: 14px;
+}
+.mainInputDiv > div > textarea {
+  width: 100%;
+  background-color: #333333;
+  border-radius: 10px;
+  /* height: 40px; */
+  font-size: 14px;
+  color: #787878 !important;
+  border: 1px solid #242424;
+  outline: none;
+  box-shadow: inset 0px 1px 4px rgb(0 0 0 / 30%);
+  padding: 10px 15px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+.mainInputDiv > div > textarea::-webkit-scrollbar {
+  width: 5px;
+}
+.mainInputDiv > div > textarea::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+  margin: 5px 0;
+}
+.mainInputDiv > div > textarea::-webkit-scrollbar-thumb {
+  background: #c7c7c7;
+  border-radius: 10px;
+}
