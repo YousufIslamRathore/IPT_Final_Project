@@ -247,3 +247,103 @@ input:-webkit-autofill{
   background: #c7c7c7;
   border-radius: 10px;
 }
+
+
+/* //// Main Header //// */
+.mainHeaderNav {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  background-color: #242424;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+.mainSideBar {
+  position: fixed;
+  width: 240px;
+  background-color: #313131;
+  margin-top: 60px;
+  top: 0;
+  bottom: 0;
+  /* z-index: -1; */
+}
+.mainBodyPanel {
+  flex-grow: 1;
+  background-color: blue;
+  height: 240px;
+  margin-top: 60px;
+  margin-left: 240px;
+  /* z-index: 10; */
+}
+.mainHeaderNav > h2 {
+  width: 240px;
+  text-align: center;
+}
+.mainHeaderNav > div {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.searchBarDiv {
+  margin: 0 60px;
+}
+.searchBarDiv input {
+  width: 350px;
+  padding: 9px 15px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background-color: #ffffff26;
+  font-size: 13px;
+  color: #787878 !important;
+  border: 1px solid #242424;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+.navbarRightContent {
+  margin: 0 50px;
+  display: flex;
+  align-items: center;
+}
+.navbarRightContent > div {
+  margin-right: 40px;
+  position: relative;
+}
+.navbarRightContent > div:last-child {
+  margin-right: 0;
+}
+.navbarRightContent > div > i {
+  color: #c7c7c7;
+  cursor: pointer;
+  font-size: 1.25rem;
+}
+
+.navbarRightContent > div > i:hover {
+  color: #ffffff;
+} 
+.navBarProfilePic {
+  width: 35px;
+  height: 35px;
+  background-color: #c7c7c7;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navBarProfilePic > i {
+  color: #313131 !important;
+}
+.navbarRightContent > div > span {
+  position: absolute;
+  background-color: #ED2A26;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  top: -3px;
+  right: -3px;
+}
