@@ -348,8 +348,12 @@ input:-webkit-autofill{
   right: -3px;
 }
 .navbarRightContent > button {
+  background-color: #ED2A26;
+  color: #fff;
+  margin: 0 25px 0 0;
+  padding: 6px 15px;
   border: none;
   outline: none;
-  background-color: #ED2A26;
-  color: #c7c7c7;
+  border-radius: 12px;
+
 }

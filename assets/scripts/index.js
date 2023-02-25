@@ -12,3 +12,7 @@ function signUp2StepsToggler(redirectorSection, key) {
     signUp2Btn.innerHTML = "Student Sign Up Now";
   }
 }
+
+function homeIcon() {
+  window.location.assign("./home.html")
+}
