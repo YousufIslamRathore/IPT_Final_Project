@@ -9,51 +9,81 @@
 
     <!-- //// Cascading Style Sheet //// -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/website.css">
 
     <!-- //// Font Awesome CDN //// -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- //// Animate On Scroll CDN //// -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
     <!-- //// Main Navbar //// -->
-    <header class="mainHeaderNav">
+    <header class="mainHeaderNav websiteMainHeader">
         <h2>Website Logo</h2>
         <div>
-            <div class="searchBarDiv">
-                <input type="text" name="searchBar" placeholder="Search Here">
-            </div>
-            <div class="navbarRightContent">
-                <button>Create New Course</button>
-                <div>
-                    <i class="fa-solid fa-house" onclick="homeIcon()"></i>
-                    <!-- <span>9</span> -->
-                </div>
-                <div>
-                    <i class="fa-solid fa-envelope"></i>
-                    <span>3</span>
-                </div>
-                <div>
-                    <i class="fa-solid fa-bell"></i>
-                    <span>9</span>
-                </div>
-                <div>
-                    <div class="navBarProfilePic">
-                        <i class="fa-solid fa-user"></i>
-                    </div>
-                </div>
-            </div>
+            <div>Home</div>
+            <div>About Us</div>
+            <div>Contact Us</div>
+            <div>FAQ</div>
+            <section>
+                <button>
+                    Log In
+                </button>
+            </section>
+            <section>
+                <button>
+                    Sign Up
+                </button>
+            </section>
         </div>
     </header>
-    <main style="display: flex;">
-        <section class="mainSideBar">
 
+    <section class="websiteMainBannerSection">
+
+        <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+            Welcome to our website
+        </h1>
+        <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+            A platform developed for students who are eager to learn and enhance their knowledge
+            in various subjects. We are committed to providing the best online resources and tools that will assist you
+            in achieving your academic goals.
+        </h2>
+
+    </section>
+
+    <section class="websiteAfterBannerSection">
+
+        <section>
+            <h3 data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                We understand that learning can be challenging, and that is why we have designed this platform to be
+                user-friendly and accessible to all. Our goal is to create an environment where students can learn at
+                their own pace, ask questions, and receive support from our team of experts. 
+            </h3>
+            <div>
+                <h4 data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">Here are some of the features that you can expect from our platform:</h4>
+                <ul>
+                    <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="400"><span>High-quality educational resources:</span> We offer a wide range of educational resources, including articles, videos, and tutorials. These resources are designed to help you understand complex topics and concepts in an easy-to-understand manner.</li>
+                    <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="500"><span> Interactive learning tools:</span> Our platform also features interactive learning tools, such as quizzes and games, that will help you test your knowledge and reinforce what you have learned.</li>
+                    <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="600"><span> Personalized learning experience:</span> We understand that every student has unique learning needs. That is why we offer personalized learning experiences that cater to your individual needs and preferences.</li>
+                    <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="700"><span> Expert guidance:</span> Our team of experts is always available to provide guidance and support. Whether you need help with a difficult assignment or have a question about a particular topic, we are here to help.</li>
+                    <li data-aos="fade-up" data-aos-duration="800" data-aos-delay="800"><span> Community of learners:</span> Our platform also provides an opportunity for you to connect with other learners from around the world. You can join discussion forums, share your ideas, and collaborate on projects with other students.</li>
+                </ul>
+                <h4 data-aos="fade-up" data-aos-duration="800" data-aos-delay="900" style="font-weight: 500;">We believe that learning should be a fun and engaging experience, and we are committed to providing you with the tools and resources you need to succeed. Join us today and take the first step towards achieving your academic goals!</h4>
+            </div>
         </section>
-        <section class="mainBodyPanel"></section>
-    </main>
+
+    </section>
+
 </body>
 <script src="./assets/scripts/index.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </html>

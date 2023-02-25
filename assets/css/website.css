@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.websiteMainHeader {
+  position: fixed;
+  top: 0;
+  z-index: 50;
+}
+.websiteMainHeader > div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 50px;
+}
+.websiteMainHeader > div > div {
+  margin: 0 25px;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition-duration: 200ms;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+.websiteMainHeader > div > div:hover {
+  text-decoration: underline;
+}
+
+.websiteMainHeader > div > section {
+  margin: 0 15px;
+}
+.websiteMainHeader > div button {
+  padding: 6px 15px;
+  background-color: #ed2a26;
+  color: white;
+  font-size: 14px;
+  border-radius: 12px;
+  width: 100px;
+}
+
+.websiteMainBannerSection {
+  min-height: 100vh;
+  padding: 60px 20px 30px;
+  background: #403b4a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #e7e9bb,
+    #403b4a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #e7e9bb,
+    #403b4a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.websiteMainBannerSection > h1, .websiteMainBannerSection > h2 {
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+    color: white;
+}
+.websiteMainBannerSection > h1 {
+    font-size: 50px;
+    margin-bottom: 28px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+.websiteMainBannerSection > h2 {
+    width: 1060px;
+    font-size: 20px;
+    letter-spacing: 0.75px;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+.websiteAfterBannerSection {
+    padding: 96px 40px;
+}
+.websiteAfterBannerSection > section {
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 0 auto;
+}
+
+.websiteAfterBannerSection > section > h3 {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    margin-bottom: 36px;
+    font-weight: 500;
+}
+.websiteAfterBannerSection > section > div > h4 {
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.websiteAfterBannerSection > section > div > ul {
+    list-style: outside ;
+    margin: 0 20px;
+    margin-bottom: 20px;
+}
+.websiteAfterBannerSection > section > div > ul > li {
+    padding: 0 10px;
+    font-weight: 400;
+    margin-bottom: 14px;
+    line-height: 20px;
+    text-align: justify;
+}
+.websiteAfterBannerSection > section > div > ul > li > span {
+    font-weight: 600;
+    text-transform: capitalize;
+}
