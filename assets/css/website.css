@@ -131,3 +131,13 @@ button {
     font-weight: 600;
     text-transform: capitalize;
 }
+.websiteAfterBannerSection > section > div > button {
+    width: 150px;
+    background-color: #ed2a26;
+    color: white;
+    padding: 8px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.85px;
+}
