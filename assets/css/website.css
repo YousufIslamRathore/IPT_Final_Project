@@ -496,3 +496,22 @@ footer ul {
   border-radius: 12px;
   box-shadow: 0 3px 10px #ddd;
 }
+
+
+.faqMainSection {
+  padding: 100px 0;
+}
+.faqMainSection > section {
+  width: 1140px ;
+  margin: 0 auto;
+}
+.faqMainSection h3 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.faqMainSection h4 {
+  font-size: 18px;
+  margin-top: 30px;
+  text-align: center;
+  color: #555;
+}
