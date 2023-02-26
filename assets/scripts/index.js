@@ -34,3 +34,6 @@ function loginPage() {
 function signupPage() {
   window.location.assign("./signUp.html");
 }
+function allCoursesPage() {
+  window.location.assign("./allCourses.html")
+}
