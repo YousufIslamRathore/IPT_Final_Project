@@ -272,7 +272,7 @@ button {
     margin-bottom: 100px;
 }
 .reviewsMainSection h3 {
-    color: #ff523b;
+    color: #333;
     font-size: 32px;
     text-align: center;
     font-weight: 700;
@@ -340,6 +340,7 @@ button {
 footer {
     padding: 60px 0 20px;
     background-color: #000000;
+    color: #ddd;
 }
 footer > section {
     width: 1300px;
@@ -349,7 +350,36 @@ footer > section {
 footer > section > section {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    
+}
+footer > section > section > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
 }
 footer > section > .copyright {
     text-align: center;
+    font-size: 12px;
+    letter-spacing: 0.65px;
+    margin-top: 10px;
+}
+footer ul {
+    list-style: none;
+}
+footer h5 {
+    color: #e7e9bb;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+footer li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+footer ul {
+    margin-bottom: 24px;
 }

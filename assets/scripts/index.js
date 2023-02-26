@@ -14,5 +14,20 @@ function signUp2StepsToggler(redirectorSection, key) {
 }
 
 function homeIcon() {
-  window.location.assign("./home.html")
+  window.location.assign("./home.html");
+}
+function aboutUsPage() {
+  window.location.assign("./aboutUs.html");
+}
+function contactUsPage() {
+  window.location.assign("./contactUs.html");
+}
+function faqsPage() {
+  window.location.assign("./faqsPage.html")
+}
+function loginPage() {
+  window.location.assign("./login.html");
+}
+function signupPage() {
+  window.location.assign("./signUp.html");
 }
