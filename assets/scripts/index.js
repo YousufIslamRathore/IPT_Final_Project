@@ -16,6 +16,9 @@ function signUp2StepsToggler(redirectorSection, key) {
 function homeIcon() {
   window.location.assign("./home.html");
 }
+function homePage() {
+  window.location.assign("./home.html")
+}
 function aboutUsPage() {
   window.location.assign("./aboutUs.html");
 }

@@ -12,10 +12,10 @@ button {
   cursor: pointer;
 }
 .separator {
-    height: 1px;
-    background-color: #B5B5B5;
-    width: 100%;
-    border-radius: 3px;
+  height: 1px;
+  background-color: #b5b5b5;
+  width: 100%;
+  border-radius: 3px;
 }
 
 .websiteMainHeader {
@@ -248,10 +248,10 @@ button {
   padding: 12px 24px;
 }
 .freeCoursesMainSection > section > div {
-    margin: 25px auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin: 25px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .freeCoursesMainSection > section > div button {
   border-radius: 12px;
@@ -264,122 +264,235 @@ button {
   font-weight: bold;
 }
 .freeCoursesMainSection > section > div i {
-    margin-left: auto;
+  margin-left: auto;
 }
 
 /* *** Review Section *** */
 .reviewsMainSection {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 .reviewsMainSection h3 {
-    color: #333;
-    font-size: 32px;
-    text-align: center;
-    font-weight: 700;
+  color: #333;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 700;
 }
 .reviewsMainSection .rating i {
-    color: #ff523b;
+  color: #ff523b;
 }
 .testimonial {
-    padding: 40px 0;
+  padding: 40px 0;
 }
 .small-container {
-    max-width: 1080px;
-    margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .row {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 .col-3 {
-    flex-basis: 30%;
-    min-width: 250px;
-    margin-bottom: 30px;
+  flex-basis: 30%;
+  min-width: 250px;
+  margin-bottom: 30px;
 }
 .col-3 img {
-    width: 100%;
+  width: 100%;
 }
 
 .testimonial .col-3 {
-    text-align: center;
-    padding: 40px 20px;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: transform 0.5s;
-    border: 1px solid #ddd;
-    border-radius: 12px;
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.5s;
+  border: 1px solid #ddd;
+  border-radius: 12px;
 }
 .testimonial .col-3 img {
-    width: 50px;
-    margin-top: 20px;
-    border-radius: 50%;
+  width: 50px;
+  margin-top: 20px;
+  border-radius: 50%;
 }
 .testimonial .col-3:hover {
-    transform: translateY(-10px);
+  transform: translateY(-10px);
 }
 .fa.fa-quote-left {
-    font-size: 34px;
-    color: #ff523b;
+  font-size: 34px;
+  color: #ff523b;
 }
 .col-3 p {
-    font-size: 12px;
-    margin: 12px 0;
-    color: #777;
+  font-size: 12px;
+  margin: 12px 0;
+  color: #777;
 }
 
 .testimonial .col-3 h3 {
-    font-weight: 600;
-    color: #555;
-    font-size: 16px;
+  font-weight: 600;
+  color: #555;
+  font-size: 16px;
 }
 
 footer {
-    padding: 60px 0 20px;
-    background-color: #000000;
-    color: #ddd;
+  padding: 60px 0 20px;
+  background-color: #000000;
+  color: #ddd;
 }
 footer > section {
-    width: 1300px;
-    padding: 0 25px;
-    margin: 0 auto;
+  width: 1300px;
+  padding: 0 25px;
+  margin: 0 auto;
 }
 footer > section > section {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 footer > section > section > div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
 }
 footer > section > .copyright {
-    text-align: center;
-    font-size: 12px;
-    letter-spacing: 0.65px;
-    margin-top: 10px;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 0.65px;
+  margin-top: 10px;
 }
 footer ul {
-    list-style: none;
+  list-style: none;
 }
 footer h5 {
-    color: #e7e9bb;
-    font-size: 18px;
-    margin-bottom: 15px;
-    font-weight: bold;
+  color: #e7e9bb;
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
 }
 
 footer li {
-    margin-bottom: 10px;
-    cursor: pointer;
+  margin-bottom: 10px;
+  cursor: pointer;
 }
 footer ul {
-    margin-bottom: 24px;
+  margin-bottom: 24px;
+}
+
+/* **** ABOUT US PAGE **** */
+
+.websiteMainAboutUsBannerSection {
+  min-height: 380px;
+  padding-top: 60px;
+  background: #403b4a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #e7e9bb,
+    #403b4a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #e7e9bb,
+    #403b4a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.websiteMainAboutUsBannerSection h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  font-size: 48px;
+}
+
+.aboutUsMainContent {
+  padding: 100px 28px;
+}
+
+.aboutUsMainContent > section {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.aboutUsMainContent > section > h3 {
+  font-size: 22px;
+  line-height: 1.75rem;
+  letter-spacing: 0.75px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.aboutUsMainContent > section > h1 {
+  font-size: 32px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 60px;
+  font-weight: 800;
+}
+
+.aboutUsMainContent > section > h4 {
+  font-style: italic;
+  margin: 0 30px 50px;
+  text-align: center;
+  color: #555;
+  font-size: 16px;
+}
+
+.aboutUsMainContent > section > p {
+  font-size: 18px;
+  color: #444;
+  text-align: center;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+
+/* **** Contact Us **** */
+
+.contactUsMainContent > section > div {
+  width: 100%;
+  padding: 24px 16px;
+  border: 2px solid #555;
+  box-shadow: 0px 3px 10px #333;
+}
+.contactUsMainContent h2 {
+  font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.contactUsMainContent > section > div > form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+.contactUsMainContent > section > div > form > div {
+  width: 100% ;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.contactUsMainContent label {
+  width: 100%;
+  margin: 20px 0;
+}
+.contactUsMainContent input, .contactUsMainContent textarea {
+  width: 100%;
+  padding: 12px 24px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px #ddd;
 }

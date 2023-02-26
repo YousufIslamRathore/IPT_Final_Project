@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+
+    <!-- //// Cascading Style Sheet //// -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/website.css">
+
+    <!-- //// Font Awesome CDN //// -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- //// Animate On Scroll CDN //// -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- //// Main Navbar //// -->
+    <header class="mainHeaderNav websiteMainHeader">
+        <h2>Website Logo</h2>
+        <div>
+            <div onclick="homePage()">Home</div>
+            <div onclick="aboutUsPage()">About Us</div>
+            <div onclick="contactUsPage()">Contact Us</div>
+            <div onclick="">FAQ</div>
+            <section>
+                <button onclick="loginPage()">
+                    Log In
+                </button>
+            </section>
+            <section>
+                <button onclick="signupPage()">
+                    Sign Up
+                </button>
+            </section>
+        </div>
+    </header>
+
+    <section class="websiteMainAboutUsBannerSection">
+
+        <h1>About Us</h1>
+
+    </section>
+
+    <section class="aboutUsMainContent">
+        <section>
+
+            <h3>As the creators of this platform, we are passionate about providing students with the best possible learning experience. We understand the challenges that students face when it comes to learning, and we wanted to create a platform that would make learning easy, engaging, and accessible to everyone.</h3>
+            <h3>Our team is comprised of experienced educators, developers, and designers who are committed to providing the best possible online learning experience. We have worked tirelessly to create a platform that is user-friendly, interactive, and filled with high-quality educational resources.</h3>
+            <h1>Our Mission</h1>
+            <h4>Our mission is to empower students to achieve their academic goals by providing them with the tools and resources they need to succeed. We are dedicated to helping students develop the skills and knowledge they need to excel in their studies and beyond.</h4>
+            <p>At the heart of our platform is a commitment to creating a community of learners. We believe that learning is most effective when it is collaborative and interactive, which is why we encourage students to connect with one another and share their ideas and experiences.</p>
+            <p>We are proud of what we have created, and we are excited to continue developing and improving our platform to meet the evolving needs of students everywhere. Join us today and start your journey towards academic success!</p>
+        </section>
+    </section>
+
+    <footer>
+        <section>
+            <section>
+                <div>
+                    <h2>WEBSITE LOGO</h2>
+                </div>
+                <div>
+                    <h5>Visit More </h5>
+                    <ul>
+                        <li onclick="aboutUsPage()">About Us</li>
+                        <li onclick="contactUsPage()">Contact Us</li>
+                        <li onclick="faqsPage()">FAQs</li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>Socials</h5>
+                    <ul>
+                        <li>Discord</li>
+                        <li>Github</li>
+                        <li>Facebook</li>
+                    </ul>
+                </div>
+            </section>
+            <div class="separator"></div>
+            <div class="copyright">Copyright 2023 - EB20103032 | EB20103125 | EB20103138</div>
+        </section>
+    </footer>
+
+</body>
+<script src="./assets/scripts/index.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
