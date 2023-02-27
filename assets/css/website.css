@@ -600,3 +600,171 @@ footer ul {
   border-radius: 12px;
   box-shadow: 0px 3px 5px #ddd;
 }
+
+.viewCourseWholeBody {
+  padding-top: 60px;
+  background-color: #1c1d1f;
+}
+.viewCourseWholeBody > section {
+  width: 1080px;
+  padding: 32px 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.viewCourseWholeBody > section > section {
+  width: 700px;
+}
+.viewCourseWholeBody > section .sectionTrail {
+  color: #CEC0CF;
+  font-size: 13px;
+  padding: 4px 0;
+  display: flex;
+  align-items: baseline;
+}
+.sectionTrail > div {
+  width: 16px;
+  height: 16px;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px;
+  color: white;
+  font-weight: 800;
+}
+.sectionTrail p {
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.6px;
+}
+.courseTitle{
+  color: white;
+}
+.courseTitle > h1 {
+  font-size: 32px;
+  margin-bottom: 8px;
+  letter-spacing: -0.02rem;
+}
+.courseTitle > p {
+  font-size: 19px;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+.courseTitle .ratingSection {
+  display: flex;
+  column-gap: 24px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.courseTitle .ratingSection > div {
+  display: flex;
+  justify-content: start;
+  align-self: center;
+  font-size: 13px;
+  color: #888;
+} 
+.courseTitle .ratingSection > div > p {
+  margin-right: 12px;
+  color: white;
+}
+.courseTitle .ratingSection > div > i {
+  margin: 0 2px;
+  color: #2a52be;
+}
+.courseTitle .createdBy {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 14px;
+}
+.courseTitle .createdBy > p {
+  font-size: 12px;
+  margin-right: 10px;
+  color: white;
+}
+.courseTitle .createdBy > div {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+.courseTitle .createdBy > div > p {
+  color: #ddd;
+  font-size: 13px;
+  text-decoration: underline;
+  font-weight: 500;
+  margin-left: 3px;
+  letter-spacing: 0.6px;
+} 
+.courseTitle .lastUpdatedAt {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.courseTitle .lastUpdatedAt > p {
+  color: white;
+  font-size: 15px;
+  font-weight: 200;
+
+}
+
+.viewCourseWholeBody > section > div {
+  width: 340px;
+  background-color: white;
+  padding: 20px;
+}
+.viewCourseWholeBody > section > div > div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.viewCourseWholeBody > section > div img {
+  width: 50%;
+}
+.viewCourseWholeBody > section > div h2 {
+  text-align: center;
+  color: #555;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.viewCourseWholeBody > section > div button {
+  width: 80%;
+  margin: 0 auto;
+  padding: 12px 24px;
+  color: white;
+  background-color: #2a52be;
+  box-shadow: 0px 3px 10px #ddd;
+  border-radius: 12px;
+}
+.viewCourseAfterBannerSection {
+  padding: 48px 0;
+}
+.viewCourseAfterBannerSection > section {
+  width: 970px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  border: 1px solid #999;
+}
+.viewCourseAfterBannerSection > section > h1 {
+  color: #555;
+  margin-bottom: 20px;
+}
+.viewCourseAfterBannerSection > section > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+  row-gap: 30px;
+  flex-wrap: wrap;
+
+}
+.viewCourseAfterBannerSection > section > div > div {
+  width: 46%;
+  display: flex;
+  align-items: start;
+
+}
+.viewCourseAfterBannerSection > section > div > div > div {
+  margin-right: 10px;
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!-- //// Cascading Style Sheet //// -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/website.css">
+
+    <!-- //// Font Awesome CDN //// -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- //// Animate On Scroll CDN //// -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- //// Main Navbar //// -->
+    <header class="mainHeaderNav websiteMainHeader">
+        <h2>Website Logo</h2>
+        <div>
+            <div onclick="homePage()">Home</div>
+            <div onclick="allCourses()">All Courses</div>
+            <div onclick="aboutUsPage()">About Us</div>
+            <div onclick="contactUsPage()">Contact Us</div>
+            <div onclick="faqsPage()">FAQ</div>
+            <section>
+                <button onclick="loginPage()">
+                    Log In
+                </button>
+            </section>
+            <section>
+                <button onclick="signupPage()">
+                    Sign Up
+                </button>
+            </section>
+        </div>
+    </header>
+
+    <section class="viewCourseWholeBody">
+        <section>
+            <section>
+                <div class="sectionTrail">
+                    <p>Development</p>
+                    <div><i class="fa-solid fa-chevron-right"></i></div>
+                    <p>Programming Languages</p>
+                    <div><i class="fa-solid fa-chevron-right"></i></div>
+                    <p>Express Framework</p>
+                </div>
+                <div class="courseTitle">
+                    <h1>
+                        NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)
+                    </h1>
+                    <p>
+                        Master Node JS & Deno.js, build REST APIs with Node.js, GraphQL APIs, add Authentication, use
+                        MongoDB, SQL & much more!
+                    </p>
+                    <div class="ratingSection">
+                        <div>
+                            <p>Ratings : </p>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div>( 420 Students )</div>
+                    </div>
+                    <div class="createdBy">
+                        <p>Course By : </p>
+                        <div>
+                            <p>Sr. ABC</p>
+                            ,
+                            <p>Prof. XYZ</p>
+                        </div>
+                    </div>
+                    <div class="lastUpdatedAt">
+                        <p>Last Updated 02/2022</p>
+                        <p><i class="fa-solid fa-globe"></i> English & Urdu</p>
+                    </div>
+                </div>
+            </section>
+            <div>
+                <div><img src="./images/courses/nodejs.png" alt=""></div>
+                <h2>This Course is for free</h2>
+                <div>
+                    <button>SUBSCRIBE</button>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="viewCourseAfterBannerSection">
+        <section>
+            <h1>
+                What you'll learn
+            </h1>
+            <div>
+                <div>
+                    <div><i class="fa-solid fa-check"></i></div>
+                    <p>Work with one of the most in-demand web development programming languages </p>
+                </div>
+                <div>
+                    <div><i class="fa-solid fa-check"></i></div>
+                    <p>Learn the basics as well as advanced concepts of NodeJS in great detail </p>
+                </div>
+                <div>
+                    <div><i class="fa-solid fa-check"></i></div>
+                    <p>Build modern, fast and scalable server-side web applications with NodeJS, databases like SQL or MongoDB and more </p>
+                </div>
+                <div>
+                    <div><i class="fa-solid fa-check"></i></div>
+                    <p>Understand the NodeJS ecosystem and build server-side rendered apps, REST APIs and GraphQL APIs</p>
+                </div>
+                <div>
+                    <div><i class="fa-solid fa-check"></i></div>
+                    <p>Get a thorough introduction to DenoJS</p>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <footer>
+        <section>
+            <section>
+                <div>
+                    <h2>WEBSITE LOGO</h2>
+                </div>
+                <div>
+                    <h5>Visit More </h5>
+                    <ul>
+                        <li onclick="aboutUsPage()">About Us</li>
+                        <li onclick="contactUsPage()">Contact Us</li>
+                        <li onclick="faqsPage()">FAQs</li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>Socials</h5>
+                    <ul>
+                        <li>Discord</li>
+                        <li>Github</li>
+                        <li>Facebook</li>
+                    </ul>
+                </div>
+            </section>
+            <div class="separator"></div>
+            <div class="copyright">Copyright 2023 - EB20103032 | EB20103125 | EB20103138</div>
+        </section>
+    </footer>
+
+</body>
+<script src="./assets/scripts/index.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
