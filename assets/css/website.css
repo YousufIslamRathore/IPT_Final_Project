@@ -453,7 +453,6 @@ footer ul {
   margin: 20px 0;
 }
 
-
 /* **** Contact Us **** */
 
 .contactUsMainContent > section > div {
@@ -464,9 +463,9 @@ footer ul {
 }
 .contactUsMainContent h2 {
   font-size: 28px;
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
 .contactUsMainContent > section > div > form {
   width: 100%;
@@ -477,7 +476,7 @@ footer ul {
   padding: 0 20px;
 }
 .contactUsMainContent > section > div > form > div {
-  width: 100% ;
+  width: 100%;
   display: flex;
   align-items: center;
   gap: 24px;
@@ -486,7 +485,8 @@ footer ul {
   width: 100%;
   margin: 20px 0;
 }
-.contactUsMainContent input, .contactUsMainContent textarea {
+.contactUsMainContent input,
+.contactUsMainContent textarea {
   width: 100%;
   padding: 12px 24px;
   border: none;
@@ -497,12 +497,11 @@ footer ul {
   box-shadow: 0 3px 10px #ddd;
 }
 
-
 .faqMainSection {
   padding: 100px 0;
 }
 .faqMainSection > section {
-  width: 1140px ;
+  width: 1140px;
   margin: 0 auto;
 }
 .faqMainSection h3 {
@@ -514,4 +513,90 @@ footer ul {
   margin-top: 30px;
   text-align: center;
   color: #555;
+}
+
+/* **** ALL COURSES **** */
+
+.allCoursesContentSection {
+  padding-top: 60px;
+  width: 100%;
+}
+.allCoursesHeader {
+  margin-bottom: 50px;
+}
+.allCoursesHeader > h1 {
+  text-align: center;
+  color: #333;
+  margin: 50px auto 40px;
+  font-size: 48px;
+}
+.allCoursesHeader > section {
+  width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+.allCoursesHeader > section > div {
+  width: 30%;
+  border-radius: 25px;
+  border: 1px solid #403b4a;
+  box-shadow: 0px 3px 10px #ddd;
+  padding: 28px 18px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.allCoursesHeader > section > div .courseImage {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  margin-bottom: 16px;
+}
+.allCoursesHeader > section > div .priceDiv {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  background-color: #00000380;
+  color: white;
+  padding: 12px 24px;
+}
+.allCoursesHeader > section > div img {
+  width: 40%;
+}
+.allCoursesHeader > section > div h4 {
+  color: #555;
+  font-size: 18px;
+  letter-spacing: 0.65px;
+}
+.allCoursesHeader > section > div p {
+  width: 100%;
+  text-align: left;
+  font-style: italic;
+  font-size: smaller;
+  margin: 5px 0 14px;
+  color: #888;
+}
+.allCoursesHeader > section > div i {
+  color: #2a52be;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.allCoursesHeader > section > div button {
+  background-color: #ed2a26;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 0.75px;
+  width: 120px;
+  padding: 7px;
+  border-radius: 8px;
+}
+.contactUsMainContent form section > button {
+  background-color: #555;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 12px;
+  box-shadow: 0px 3px 5px #ddd;
 }

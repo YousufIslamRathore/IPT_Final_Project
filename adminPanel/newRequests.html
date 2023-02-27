@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMIN PANEL</title>
+
+    <!-- //// Cascading Style Sheet //// -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/website.css">
+    <link rel="stylesheet" href="../assets/css/adminPanel.css">
+
+    <!-- //// Font Awesome CDN //// -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- //// Animate On Scroll CDN //// -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <main class="wholeAdminPanel">
+        <!-- //// Main SideBar //// -->
+        <section class="usersPageSideBar">
+
+            <h1>ADMIN PANEL</h1>
+
+            <section class="sideBarListContainer">
+
+                <div class="pageSelectors" onclick="">
+
+                    <i class="fa-solid fa-circle selectedSideBarCirclePointer <?php echo $visible?>"></i>
+                    <section style="text-align: center;">
+                        <i class="fa-solid fa-users"></i>
+                    </section>
+                    <p onclick="">Students</p>
+                </div>
+                <div class="pageSelectors" onclick="">
+
+                    <i class="fa-solid fa-circle selectedSideBarCirclePointer <?php echo $visible?>"></i>
+                    <section style="text-align: center;">
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                    </section>
+                    <p onclick="">Teachers</p>
+                </div>
+                <div class="pageSelectors" onclick="">
+
+                    <i class="fa-solid fa-circle selectedSideBarCirclePointer <?php echo $visible?> "></i>
+                    <section style="text-align: center;">
+                        <i class="fa-solid fa-exclamation"></i>
+                    </section>
+                    <p onclick="">Requests</p>
+                </div>
+
+            </section>
+        </section>
+
+        <section class="wholeOtherContentSection">
+            <h1>USERS LISTING</h1>
+
+            <section>
+                <section class="usersListSection">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="firstCell">Email</th>
+                                <th>Full Name</th>
+                                <th>User Type</th>
+                                <th class="lastCell" >Select</th>
+                            </tr>
+                        </thead>
+                        <tbody id="orderTableBody">
+                            <tr>
+                                <td class="firstCell">admin123@gmail.com</td>
+                                <td>Yousuf Islam</td>
+                                <td>Student</td>
+                                <td class="lastCell">
+                                    <button class="acceptBtn">Accept</button>
+                                    <button class="rejectBtn">Reject</button>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </section>
+            </section>
+
+        </section>
+
+    </main>
+
+
+
+</body>
+<script src="./assets/scripts/index.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>

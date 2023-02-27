@@ -1,0 +1,257 @@
+.wholeAdminPanel {
+  display: flex;
+  align-items: start;
+}
+
+.usersPageSideBar {
+  min-height: 95vh;
+  max-height: 95vh;
+  border-radius: 15px;
+  width: 220px;
+  align-self: stretch;
+  /* background-color: #015e8b; */
+  /* background-color: #252324; */
+  /* background-color: #1F51FF; */
+  /* background-color: rgba(238, 238, 238, 0.582); */
+  background-color: #262525;
+  /* backdrop-filter: blur(80%); */
+  /* padding: 0 10px; */
+  box-shadow: 0px 3px 10px rgb(0 0 0 / 40%), -0px -3px 10px rgb(0 0 0 / 40%);
+  z-index: 20;
+  /* border-right: 2px solid #015e8b; */
+  /* border-right: 2px solid #252324; */
+  position: fixed;
+  overflow-y: hidden;
+  margin: 2.5vh 10px 2.5vh 7px;
+}
+.usersPageSideBar > h1 {
+  color: white;
+  /* text-align: center; */
+  font-size: 28px;
+  word-spacing: 0.375rem;
+  position: sticky;
+  top: 0;
+  padding-top: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  margin: 30px auto;
+}
+.usersPageSideBar > h1 > span {
+  font-size: 16px;
+  font-family: "Boowie";
+  margin-left: 10px;
+  line-height: 1.25rem;
+  letter-spacing: 0.5rem;
+  color: white;
+}
+.usersPageSideBar > h1 > span > span {
+  font-family: "Boowie";
+}
+.sideBarListContainer {
+  /* margin-top: 10px; */
+  /* background-color: #252324; */
+  /* background-color: #0D5BE1; */
+  background-color: #262525;
+  /* border-right: 2px solid #262525; */
+  border-radius: 10px;
+  padding: 20px 0;
+  /* box-shadow: 0px 3px 10px rgb(0 0 0 / 40%),  -0px -3px 10px rgb(0 0 0 / 40%); */
+  /* height: 83vh; */
+  overflow-y: hidden;
+  /* border-bottom: 1px solid rgba(189, 189, 189, 0.507);
+      border-top: 1px solid rgba(189, 189, 189, 0.507); */
+}
+.sideBarListContainer > div {
+  height: 60px;
+  /* border-bottom: 1px solid rgba(189, 189, 189, 0.507);
+    border-top: 1px solid rgba(189, 189, 189, 0.507); */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: rgb(197, 194, 194);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.65px;
+  font-weight: bold;
+  cursor: pointer;
+  transition-duration: 300ms;
+  /* border: 1px solid #000; */
+  /* margin-bottom: 10px; */
+  padding: 15px 0;
+}
+.sideBarListContainer > div:hover {
+  color: white;
+}
+/* .sideBarListContainer > div:hover {
+    background-color: white;
+    color: #015e8b;
+  } */
+.sideBarListContainer > div p {
+  margin-bottom: 0;
+}
+.sideBarListContainer > div > section {
+  width: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.selectedSideBarCirclePointer {
+  font-size: 5px !important;
+  visibility: hidden;
+}
+.forShadowImage {
+  /* width: 150px; */
+  -webkit-filter: drop-shadow(2px 2px 2px rgb(255 255 255));
+  filter: drop-shadow(2px 2px 2px rgb(255 255 255));
+}
+.forSuperAdminContainer {
+  color: white;
+}
+
+.usersListSection > table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.usersListSection thead {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+  /* border-radius: 15px !important; */
+  background-color: #333;
+}
+.usersListSection tr {
+  display: table;
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  transition-duration: 200ms;
+  table-layout: fixed;
+}
+.usersListSection tbody {
+  display: block;
+  height: 420px !important;
+  width: 100%;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+.usersListSection tbody tr:hover {
+  background-color: rgba(13, 116, 233, 0.151);
+}
+.usersListSection th {
+  color: white;
+  font-size: small;
+  height: 50px;
+  text-align: center;
+}
+.usersListSection td {
+  text-align: center;
+  height: 60px;
+  /* border-bottom: 1px solid rgba(119, 119, 119, 0.267); */
+}
+.usersListSection td div {
+  width: 45%;
+  border-radius: 5px;
+  margin: 0 auto;
+  font-weight: bold;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: small;
+}
+.firstCell {
+  border-radius: 10px 0 0 10px !important;
+  /* width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+/* .firstCell > input {
+    width: 20px;
+    height: 20px;
+  } */
+.lastCell {
+  border-radius: 0 10px 10px 0 !important;
+}
+thead .firstCell {
+  border-radius: 15px 0 0 15px !important;
+}
+thead .lastCell {
+  border-radius: 0 15px 15px 0 !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  /* box-shadow: inset 0 0 5px grey; */
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(211, 209, 209);
+  border-radius: 10px;
+}
+
+.wholeOtherContentSection {
+  margin-left: 240px;
+  padding: 20px;
+}
+.wholeOtherContentSection > h1 {
+  font-size: 32px;
+  margin: 30px 0;
+  text-align: center;
+  font-weight: 800;
+}
+.wholeOtherContentSection > section {
+  padding: 30px;
+  box-shadow: 0px 3px 10px rgb(0 0 0 / 40%);
+  background-color: white;
+  border-radius: 15px;
+}
+
+.suspended {
+  background-color: #ff5f1fb4;
+  /* background-color: rgba( 155, 39, 176,251); */
+  transition-duration: 300ms;
+}
+.active,
+.completed {
+  background-color: #61b95b;
+  /* background-color: rgba(238, 62, 49,151); */
+  transition-duration: 300ms;
+}
+.requested,
+.pending {
+  background-color: #fcc910;
+  transition-duration: 300ms;
+}
+.blocked,
+.failed {
+  background-color: #ee405e;
+  transition-duration: 300ms;
+}
+.cancelled {
+  background-color: #777;
+}
+.ownerCell {
+  color: #186eb1;
+}
+.tenantCell {
+  color: #e5032dbd;
+}
+.lastCell button {
+    background-color: #333;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.lastCell .acceptBtn {
+    background-color: #61b95b;
+} 
+.lastCell .rejectBtn {
+    background-color: #ee405e;
+}
